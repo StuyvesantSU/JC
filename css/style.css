@@ -242,7 +242,11 @@ a:focus {
 
 /* misc */
 hr {
-  margin-top: 10px;
+  height: 10;
+  border-width: 100px 0;
+  border-color: #000 -moz-use-text-color #000000;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
 }
 
 /* margins */

@@ -93,7 +93,9 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  height: 0;
+  height: 10;
+  border-width: 100px 0;
+  border-color: #000 -moz-use-text-color #000000;
   -moz-box-sizing: content-box;
        box-sizing: content-box;
 }
@@ -359,7 +361,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 100;
   line-height: 1.1;
   color: inherit;
 }
